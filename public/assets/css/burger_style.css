@@ -12,3 +12,33 @@ font-family: 'Chicle', cursive;
 #headline {
     margin-left: 40%
 }
+
+#make-text {
+    margin-left: 40%
+}
+
+#not-devoured-text {
+    margin-left: 50%
+  
+}
+
+.notEaten {
+    margin-left: 50%
+ 
+}
+
+
+#devoured-text {
+    margin-left: 30%
+  
+}
+
+.burgerEaten {
+    margin-left: 30%
+ 
+}
+
+#make-field {
+    margin-left: 30%;
+    margin-right: 20%;
+}

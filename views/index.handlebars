@@ -5,9 +5,9 @@
     <div class="row">
 
       <div class="col s6">
-        <p>This buger looks yummy!</p>
+        <p id="not-devoured-text">This buger looks yummy!</p>
         {{#each burgers}} {{#unless this.devoured}}
-        <div>
+        <div id="not-devoured-burgers">
           <button class="notEaten" data-id="{{id}}" data-newDevour="{{devoured}}">
             {{this.burger_name}}
           </button>
@@ -16,7 +16,7 @@
       </div>
 
       <div class="col s6">
-        <p>This burger has been DEVOURED!!!</p>
+        <p id="devoured-text">This burger has been DEVOURED!!!</p>
 
         {{#each burgers}} {{#if this.devoured}}
         
@@ -35,9 +35,9 @@
   </div>
 </main>
 
-<h2>Make Your Own Burger!</h2>
+<h3 id="make-text">Make Your Own Burger!</h3>
 
-<div class="row">
+<div class="row" id="make-field">
   <div class="col s12">
     <form action="/burgers" method="POST">
       <input type="text" id="name" name="burger_name" placeholder="Double Bacon Cheese Burger">
