@@ -27,11 +27,12 @@ router.post("/burgers", function (req, res) {
 
 
 router.put("/burgers/:id", function (req, res) {
+  console.log("Firing!");
   var condition = "id = " + req.params.id;
   burger.updateOne({
     devoured: true
   }, condition, function (data) {
-    res.redirect("/");
+    res.status(200).end();
   });
 });
 
