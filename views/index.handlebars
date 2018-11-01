@@ -1,5 +1,20 @@
 <h1 id="headline" >Eat-Da-Burger!</h1>
 
+<h4 id="make-text">Make Your Own Burger!</h4>
+
+<div class="row" id="make-field">
+  <div class="col s12">
+    <form action="/burgers" method="POST">
+    <div>
+      <input type="text" id="name" name="burger_name" placeholder="Double Bacon Cheese Burger">
+      </div>
+      <div>
+      <button type="submit" class="addBurgerButton">Add My Burger</button>
+      </div>
+    </form>
+  </div>
+</div>
+
 <main>
   <div class="container">
     <div class="row">
@@ -35,13 +50,3 @@
   </div>
 </main>
 
-<h3 id="make-text">Make Your Own Burger!</h3>
-
-<div class="row" id="make-field">
-  <div class="col s12">
-    <form action="/burgers" method="POST">
-      <input type="text" id="name" name="burger_name" placeholder="Double Bacon Cheese Burger">
-      <button type="submit" class="addBurgerButton">Add My Burger</button>
-    </form>
-  </div>
-</div>

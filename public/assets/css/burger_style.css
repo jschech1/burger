@@ -1,6 +1,6 @@
 img {
-    width: 300px;
-    margin-left: 40%;
+    width: 200px;
+    margin-left: 45%;
     padding-top: 20px;
 }
 
@@ -14,7 +14,7 @@ font-family: 'Chicle', cursive;
 }
 
 #make-text {
-    margin-left: 40%
+    margin-left: 42%
 }
 
 #not-devoured-text {
@@ -34,11 +34,22 @@ font-family: 'Chicle', cursive;
 }
 
 .burgerEaten {
-    margin-left: 30%
+    margin-left: 30%;
+    margin-top: 10px;
+ 
+}
+
+.notEaten {
+    margin-left: 30%;
+    margin-top: 10px;
  
 }
 
 #make-field {
     margin-left: 30%;
     margin-right: 20%;
+}
+
+#name{
+    max-width: 600px;
 }
