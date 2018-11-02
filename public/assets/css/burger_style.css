@@ -43,7 +43,7 @@ font-family: 'Chicle', cursive;
 }
 
 .burgerEaten {
-    margin-left: 30%;
+    margin-left: 10%;
     margin-top: 10px;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
@@ -59,13 +59,13 @@ font-family: 'Chicle', cursive;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     width: 150px;
-    background-color: #6F1228;
+    background-color: #BF517D;
     color: white;
  
 }
 
 .notEaten {
-    margin-left: 30%;
+    margin-left: 45%;
     margin-top: 10px;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
@@ -82,4 +82,24 @@ font-family: 'Chicle', cursive;
 
 #name{
     max-width: 600px;
+    font-family: 'Montserrat', sans-serif;
+
 }
+
+#not-devoured-text{
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    color: #c9cdd1;
+}
+
+#devoured-text{
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    color: #c9cdd1;
+    margin-left: 45px;
+}
+
+html{
+    color: #c9cdd1
+}
+
