@@ -5,16 +5,25 @@ img {
 }
 
 body {
-background-color: #eeeeee;
+background-color: #9C344C;
 font-family: 'Chicle', cursive;
 }
 
 #headline {
-    margin-left: 40%
+    margin-left: 40%;
+    color: #EE9FB1;
 }
 
+#h3 {
+    margin-left: 42%;
+    color: #EE9FB1;
+
+}
 #make-text {
-    margin-left: 42%
+    margin-left: 47%;
+    font-size: 20px;
+    color: #EE9FB1;
+
 }
 
 #not-devoured-text {
@@ -36,12 +45,33 @@ font-family: 'Chicle', cursive;
 .burgerEaten {
     margin-left: 30%;
     margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    width: 250px;
+    background-color: #6F1228;
+    color: white;
+ 
+}
+
+#submit {
+    /* margin-left: 30%;
+    margin-top: 10px; */
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    width: 150px;
+    background-color: #6F1228;
+    color: white;
  
 }
 
 .notEaten {
     margin-left: 30%;
     margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    width: 250px;
+    background-color: #0F5C1C;
+    color: white;
  
 }
 
